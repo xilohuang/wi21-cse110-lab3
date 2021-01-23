@@ -2,12 +2,6 @@ body {
     background-color: azure;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: yellow;
-    }
-  }
-
 h1 {
     color : navy;
     margin-left: auto;
