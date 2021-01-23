@@ -1,0 +1,114 @@
+@media screen and (min-width: 480px) {
+    body {
+      background-color: green;
+    }
+  }
+
+h1 {
+    color : navy;
+    margin-left: auto;
+    font-size: 50pc;
+    text-align: left;
+    text-decoration: solid;
+    display: block;
+}
+
+body {
+    background-color: azure;
+}
+
+p.none {
+    border-style: none;
+}
+
+h2 {
+    font-size: 30pt;
+}
+
+h3 {
+    font-size: vh
+}
+
+p {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+  max-width: 700px;
+}
+
+span {
+    font-size: 0.5em;
+  }
+
+div {
+    position: relative;
+    margin: 20px;
+    border: 5px outset red;
+    padding: 50px;
+    background-color: lightblue;    
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid gray;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+.flex-container {
+    display: flex; 
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    flex-direction: row
+}
+
+.flex-container > div {
+    background-color: grey;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.item {
+    order: 5;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: dodgerblue;
+    padding: 10px;
+    grid-template-areas: 
+        '1 1 1 1'
+        '2 2 2 2';
+}
+
+.grid-container > div {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-area: 1;
+}
+
+.item2 {
+    grid-area: 2;
+}
