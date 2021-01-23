@@ -7,7 +7,7 @@
 h1 {
     color : navy;
     margin-left: auto;
-    font-size: 50pt;
+    font-size: 50px;
     text-align: left;
     text-decoration: solid;
     display: block;
@@ -22,7 +22,7 @@ p.none {
 }
 
 h2 {
-    font-size: 30pt;
+    font-size: 30px;
 }
 
 h3 {
