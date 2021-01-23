@@ -7,10 +7,10 @@
 h1 {
     color : navy;
     margin-left: auto;
-    font-size: 3px;
+    font-size: 50px;
     text-align: left;
     text-decoration: solid;
-    //display: block;
+    display: block;
 }
 
 body {
@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-    //font-size: vh
+    font-size: vh
 }
 
 p {
