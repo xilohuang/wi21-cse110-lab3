@@ -49,11 +49,12 @@ div {
     background-color: lightblue;    
     text-align: center;
     width: 700px;
-    height: 20px;
+    height: 300px;
 }
 
 div.sticky {
     position: -webkit-sticky;
+    height: 20px;
     position: sticky;
     top: 0;
     padding: 5px;
