@@ -1,6 +1,10 @@
+body {
+    background-color: azure;
+}
+
 @media screen and (min-width: 480px) {
     body {
-      background-color: green;
+      background-color: yellow;
     }
   }
 
@@ -13,9 +17,7 @@ h1 {
     display: block;
 }
 
-body {
-    background-color: azure;
-}
+
 
 p.none {
     border-style: none;
