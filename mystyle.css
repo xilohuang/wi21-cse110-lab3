@@ -33,6 +33,7 @@ h3 {
 }
 
 p {
+  color : hsl(187, 6%, 75%);
   font-size: 15px;
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
